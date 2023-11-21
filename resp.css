@@ -1,0 +1,109 @@
+@media (width > 1440px) {
+    header {
+        display: grid;
+        place-items: center;
+        margin-left: -150px;
+        margin-top: 100px;
+    }
+    .white-box {
+        display: grid;
+        place-items: center;
+        width: 920px;
+        height: 481px;
+        flex-shrink: 0;
+        border-radius: 25px;
+        background: #FFF;
+        box-shadow: 0px 32px 43px 0px rgba(79, 166, 175, 0.20);
+        grid-template-areas:'pirveli meotxe'
+                            'meore meotxe'
+                            'mesame meotxe';
+    }
+    .bill {
+        grid-area: pirveli;
+    }
+    .selecttip {
+        grid-area: meore;
+    }
+    .numofppl {
+        grid-area: mesame;
+    }
+    .greenbox {
+        grid-area: meotxe;
+        width: 413px;
+        height: 417px;
+    }
+    .reset {
+        width: 333px;
+        height: 48px;
+        margin-left: 40px;
+        margin-top: 330px;
+    }
+    .resclass {
+        margin-left: 55px;
+    }
+    .tam2 {
+        margin-left: 40px;
+        margin-top: 165px;
+    }
+    .person2 {
+        margin-top: 190px;
+        margin-left: 40px;
+    }
+    .amount2 {
+        font-size: 48px;
+        margin-top: 150px;
+    }
+    .tam {
+        margin-left: 38px;
+        margin-top: 55px;
+        
+    }
+    .person {
+        margin-top: 78px;
+        margin-left: 40px;
+    }
+    .amount {
+        font-size: 48px;
+    }
+    .selecttip {
+        grid-template-areas:"erti erti erti"
+                            'ori sami otxi'
+                            'xuti eqvsi shvidi';
+                            column-gap: 10px;
+    }
+    .tipebi {
+        width: 117px;
+        height: 48px;
+    }
+    #tip2 {
+        margin-top: -50px;
+        margin-left: 30px;
+    }
+    .numinput {
+        width: 379px;
+        height: 48px;
+    }
+    .customtip {
+        width: 118px;
+        height: 48px;
+    }
+    .h2st {
+        margin-left: -230px;
+    }
+    .nopcl {
+        width: 379px;
+        height: 48px;
+        margin-left: 40px;
+    }
+    .numofppl {
+        margin-top: -50px;
+    }
+    .pnop {
+        margin-left: -150px;
+    }
+
+
+
+
+
+}

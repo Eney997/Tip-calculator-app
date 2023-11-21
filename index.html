@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="app.js" defer></script>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/resp.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container"> 
+        <header>
+            <img class="headerimg" src="/assets/SPLITTER header.svg">
+        </header>
+        <div class="white-box">
+            <div class="bill">
+                <p class="inhead">Bill</p>
+                <input type="number" placeholder="Enter Price" class="numinput">
+                <h1 class="dzolar">$</h1>
+            </div>
+            <div id="tip2" class="selecttip">
+                <h2 class="h2st">Select Tip %</h2>
+                <div class="tipebi tipebi5">5%</div>
+                <div class="tipebi tipebi10">10%</div>
+                <div class="tipebi tipebi15">15%</div>
+                <div class="tipebi tipebi20">20%</div>
+                <div class="tipebi tipebi50">50%</div>
+                <div id="custom"><input type="number" class="customtip" placeholder="CUSTOM"></div>
+            </div>
+            <div class="numofppl">
+                <p class="pnop">Number of people</p>
+                <input type="number" class="nopcl">
+                <img class="imgnop" src="/assets/man.svg">
+            </div>
+            <div class="greenbox">
+                <div class="text">
+                    <p class="tam">Tip Amount</p>
+                    <p class="person">/ person</p>
+                </div>
+                <div class="amount" id="tipamount">0.00</div>
+                <div class="text2">
+                    <p class="tam2">Totall</p>
+                    <p class="person2">/ person</p>
+                </div>
+                <div class="amount2" id="tipamount2">0.00</div>
+                <div class="reset"><h5 class="resclass">reset</h5></div> 
+            </div>
+        </div>
+    </div>
+</body>
+</html>
