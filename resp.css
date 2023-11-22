@@ -35,35 +35,29 @@
     .reset {
         width: 333px;
         height: 48px;
-        margin-left: 40px;
-        margin-top: 330px;
+        margin-top: 300px;
+        margin-left: 42px;
     }
     .resclass {
         margin-left: 55px;
-    }
-    .tam2 {
-        margin-left: 40px;
-        margin-top: 165px;
-    }
-    .person2 {
-        margin-top: 190px;
-        margin-left: 40px;
-    }
-    .amount2 {
-        font-size: 48px;
-        margin-top: 150px;
-    }
-    .tam {
-        margin-left: 38px;
-        margin-top: 55px;
-        
-    }
-    .person {
-        margin-top: 78px;
-        margin-left: 40px;
+        margin-top: 6px;
     }
     .amount {
-        font-size: 48px;
+        margin-top: 70px;
+        margin-left: 40px;
+
+    }
+    .amount2 {
+        margin-top: 160px;
+        margin-left: 40px;
+    }
+    .text {
+        margin-left: 260px;
+        margin-top: 70px;
+    }
+    .text2 {
+        margin-left: 295px;
+        margin-top: 160px;
     }
     .selecttip {
         grid-template-areas:"erti erti erti"
